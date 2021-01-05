@@ -10,8 +10,6 @@ $db = new Database();
 
 $electobj = new ElectronicItem();
 
-$getitem = new ElectronicItems();
-
 $uid = $_SESSION['uid'];
 
 if($_GET['sid']!='')
