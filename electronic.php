@@ -8,9 +8,7 @@ class ElectronicItems
 {
 
 	private $items = array();
-	public $price;
-	public $type;
-	
+		
 	public function __construct()
 		{
 			$this->items = $items;
