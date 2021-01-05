@@ -1,9 +1,4 @@
 <?
-session_start();
-if(!isset($_SESSION["uid"]))
-  {
-      header("location: index.php");
-  }
 include('electronic.php');
 class Database
 {
