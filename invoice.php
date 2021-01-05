@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['uid']))
 {
-	header('index.php');	
+	header("location: index.php");	
 }
 include('database.php');
 $db = new Database();
