@@ -243,7 +243,7 @@ if($_POST['submit']=='Back To Shopping')
 						<input type="submit" name="submit" value="Pay Now" class="submit"></td>
 					</tr>
 				<? } else { ?>
-				<tr><td>There is no item in the cart.</td></tr>
+				<tr><td class="emptycart">There is no item in the cart.</td></tr>
 				<? } ?>
 			</table>	
 			
