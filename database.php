@@ -3,9 +3,9 @@ include('electronic.php');
 class Database
 {
 	var $host = "localhost";
-	var $user = "tracktick";
-	var $pass = "jdZ4i52@";
-	var $db = "tracktick";
+	var $user = "***";
+	var $pass = "****";
+	var $db = "****";
 	
 	public function connect()
 	{
